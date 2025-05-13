@@ -1,63 +1,86 @@
-index.html
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ferrari F1</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="logo">Ferrari F1</div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="cars.html">Cars</a></li>
-        <li><a href="drivers.html">Drivers</a></li>
-        <li><a href="history.html">History</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="developers.html">Developers</a></li>
-      </ul>
+  <header class="navbar">
+    <div class="logo">FERRARI</div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="cars.html">Cars</a>
+      <a href="#">Team</a>
+      <a href="#">Gallery</a>
+      <a href="#">Schedule</a>
+      <a href="#">Shop</a>
+      <a href="#">Contact</a>
     </nav>
   </header>
 
   <section class="hero">
     <div class="hero-content">
-      <h1>Welcome to Ferrari F1</h1>
-      <a href="#cars" class="hero-btn">Explore Our Cars</a>
+      <h1>Welcome to Scuderia Ferrari</h1>
+      <p>Explore the legacy of Formula 1's most iconic team, celebrating victory, speed, and engineering excellence</p>
+      <button>Discover More</button>
     </div>
   </section>
 
-  <section class="content-section">
+  <section class="info-section right-img">
     <div class="text">
-      <h2>Legendary Engineering</h2>
-      <p>Ferrari Formula 1 cars are known for cutting-edge innovation and performance.</p>
+      <h2>Legacy of Speed</h2>
+      <p>Ferrari has been dominating Formula 1 since 1950, with a legacy of unparalleled engineering, innovation, and success. From the first race win to the modern-day dominance, Ferrari continues to inspire millions of fans around the world with their passion for speed and excellence. With a record number of Constructors' Championships and a deep commitment to continuous improvement, Ferrari remains the heart and soul of Formula 1 racing.</p>
     </div>
-    <img src="images/engineering.jpg" alt="Ferrari engineering" />
+    <img src="pictures/ferrari history.avif" alt="Ferrari Legacy" />
   </section>
 
   <section class="carousel">
-    <div class="carousel-wrapper">
-      <img class="carousel-img" src="images/car1.jpg" alt="Ferrari Car 1" />
-      <img class="carousel-img" src="images/car2.jpg" alt="Ferrari Car 2" />
-      <img class="carousel-img" src="images/car3.jpg" alt="Ferrari Car 3" />
+    <h2>Featured Cars</h2>
+    <div class="carousel-container">
+      <div class="carousel-item">
+        <img src="pictures/carrousel1.jpg" alt="Car 1" />
+        <p>Ferrari 488 GTB - A perfect blend of performance and design, pushing the limits of speed and agility.</p>
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/carrousel2.webp" alt="Car 2" />
+        <p>Ferrari LaFerrari - A hypercar that defines luxury and performance, with a hybrid powertrain for ultimate speed.</p>
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/carrousel1.jpg" alt="Car 1" />
+        <p>Ferrari 812 Superfast - A beast on the road, offering unmatched power with a V12 engine.</p>
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/carrousel2.webp" alt="Car 2" />
+        <p>Ferrari F8 Tributo - Combining high-tech features and extraordinary speed, the F8 Tributo is Ferrari's true masterpiece.</p>
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/carrousel1.jpg" alt="Car 1" />
+        <p>Ferrari Portofino - A grand tourer that blends elegance with breathtaking performance on every drive.</p>
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/carrousel2.webp" alt="Car 2" />
+        <p>Ferrari SF90 Stradale - Ferrari's first plug-in hybrid supercar, designed to deliver power and efficiency like never before.</p>
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/carrousell3.jpg" alt="Car 3" />
+        <p>Ferrari GTC4Lusso - A four-seat grand tourer designed to push the limits of Ferrari's design and performance standards.</p>
+      </div>
     </div>
   </section>
 
-  <section class="content-section reverse">
-    <img src="images/championship.jpg" alt="Championship" />
+  <section class="info-section left-img">
+    <img src="pictures/innovation & Design.jpg" alt="Ferrari History" />
     <div class="text">
-      <h2>Championship Legacy</h2>
-      <p>Decades of passion, talent, and victories make Ferrari a racing icon.</p>
+      <h2>Innovation & Design</h2>
+      <p>Ferrari blends cutting-edge design with timeless performance. Each Ferrari is the result of years of expertise in engineering, aerodynamics, and materials science. Whether it’s their Formula 1 cars, road cars, or concept designs, Ferrari continues to redefine the standards of automotive innovation. With every new model, Ferrari integrates the latest technology while staying true to their racing heritage, ensuring that every car delivers a driving experience like no other.</p>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Ferrari F1 Project | All rights reserved.</p>
+    <p>&copy; 2025 Scuderia Ferrari. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>

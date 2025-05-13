@@ -1,110 +1,187 @@
-/* Reset & Base */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #fff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
   color: #000;
 }
 
-/* Navigation */
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 40px;
   background-color: #000;
-  padding: 1rem 2rem;
+  height: 60px;
+  color: white;
+  border-bottom: #F7C31C solid 2px;
 }
-nav .logo {
+
+.logo {
+  font-size: 28px;
   color: red;
-  font-weight: bold;
-  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
 }
+
 .nav-links {
   display: flex;
-  gap: 1rem;
+  gap: 24px;
+  justify-content: center;
+  flex: 1;
 }
-.nav-links li {
-  list-style: none;
-}
+
 .nav-links a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
 }
 
-/* Hero Section */
+.nav-links a:hover {
+  color: yellow;
+}
+
 .hero {
-  background: url('images/cover.jpg') no-repeat center center/cover;
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: url('pictures/bg5.jpg') no-repeat center center/cover;
+  height: 80vh;
   position: relative;
-}
-.hero-content {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 2rem;
+  display: flex;
+  align-items: flex-start; /* Move text higher */
+  justify-content: center;
   text-align: center;
-  color: white;
+  color: #F7C31C;
 }
-.hero-btn {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.8rem 1.5rem;
+
+.hero-content {
+  padding: 30px;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+}
+
+.hero button {
+  padding: 12px 25px;
   background-color: red;
+  border: none;
   color: white;
-  text-decoration: none;
   font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
   border-radius: 5px;
 }
 
-/* Content Section */
-.content-section {
+.info-section {
   display: flex;
-  padding: 4rem 2rem;
+  padding: 50px;
   align-items: center;
-  gap: 2rem;
+  gap: 40px;
+  background: linear-gradient(to right, #222222, #141414); /* Darker gradient */
 }
-.content-section.reverse {
+
+.right-img {
+  flex-direction: row;
+}
+
+.left-img {
   flex-direction: row-reverse;
 }
-.content-section img {
-  width: 50%;
+
+.info-section img {
+  width: 45%;
   border-radius: 10px;
 }
-.content-section .text {
-  width: 50%;
-}
-.content-section h2 {
-  color: #d90000;
+
+.info-section .text {
+  flex: 1;
+  color: white; /* White text */
+  font-size: 16px; /* Smaller font size */
 }
 
-/* Carousel */
+.info-section h2 {
+  color: #F7C31C; /* Yellow for big titles */
+  font-size: 30px; /* Keep big title in yellow */
+}
 .carousel {
-  padding: 2rem;
-  background: #f4f4f4;
+  padding: 40px;
+  background-color: #141414; /* Dark background */
+  text-align: center;
+  color: white; /* White text */
 }
-.carousel-wrapper {
+
+.carousel h2 {
+  color: #F7C31C; /* Yellow title */
+}
+
+.carousel-container {
   display: flex;
+  justify-content: center;
+  gap: 20px;
   overflow-x: auto;
-  scroll-behavior: smooth;
+  padding-top: 20px;
 }
-.carousel-img {
-  min-width: 300px;
-  height: 200px;
-  object-fit: cover;
-  margin-right: 1rem;
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-container img {
+  width: 300px;
+  height: auto;
   border-radius: 10px;
 }
 
-/* Footer */
 footer {
-  background: #000;
-  color: #fff;
-  padding: 1rem;
+  background-color: #000;
+  color: white;
   text-align: center;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Cars Page Section */
+.info-section {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  gap: 40px;
+  background: linear-gradient(to right, #141414); /* Dark gradient background */
+}
+
+.right-img {
+  flex-direction: row;
+}
+
+.left-img {
+  flex-direction: row-reverse;
+}
+
+.info-section img {
+  width: 45%;
+  border-radius: 10px;
+}
+
+.info-section .text {
+  flex: 1;
+  color: white;
+  font-size: 16px;
+}
+
+.info-section h2 {
+  color: #F7C31C;
+  font-size: 30px;
 }
