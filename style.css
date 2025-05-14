@@ -119,13 +119,13 @@ body {
   margin-bottom: 0px;
   padding-top:30px;
 }
+
 .carousel {
   padding: 40px;
   background-color: #141414; /* Dark background */
   text-align: center;
   color: white; /* White text */
 }
-
 .carousel h2 {
   color: #F7C31C; /* Yellow title */
 }
