@@ -1,8 +1,8 @@
 const carousel = document.querySelector('.carousel-container');
 
 let scrollAmount = 0;
-const scrollStep = 320; // Slightly more than image width + gap
-const scrollInterval = 3000; // 3 seconds
+const scrollStep = 320; 
+const scrollInterval = 3000; 
 
 function autoScrollCarousel() {
   if (carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth) {

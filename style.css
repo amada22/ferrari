@@ -101,17 +101,17 @@ body {
 
 .info-section .text {
   flex: 1;
-  color: white; /* White text */
+  color: white; 
   font-size: 16px; /* Smaller font size */
 }
 
 .info-section h2 {
-  color: #F7C31C; /* Yellow for big titles */
-  font-size: 30px; /* Keep big title in yellow */
+  color: #F7C31C;
+  font-size: 30px; 
 }
 .title {
-  color: #F7C31C; /* Yellow for big titles */
-  font-size: 30px; /* Keep big title in yellow */
+  color: #F7C31C; 
+  font-size: 30px; 
   background-color: #141414;
   text-align: center;
   margin-top: 0px;
@@ -124,10 +124,10 @@ body {
   padding: 40px;
   background-color: #141414; /* Dark background */
   text-align: center;
-  color: white; /* White text */
+  color: white; 
 }
 .carousel h2 {
-  color: #F7C31C; /* Yellow title */
+  color: #F7C31C; 
 }
 
 .carousel-container {
@@ -209,11 +209,11 @@ footer {
 
 /* Image styling */
 .about-us .profile-img {
-  width: 150px; /* Adjust the size to make images smaller */
-  height: 150px; /* Keep height and width the same to maintain a circular shape */
-  border-radius: 50%; /* Make the images round */
-  object-fit: cover; /* Ensure the image covers the area without distortion */
-  border: 4px solid #F7C31C; /* Yellow border around the images */
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  border: 4px solid #F7C31C; 
 }
 
 /* Info section layout */
@@ -235,13 +235,13 @@ footer {
 }
 
 .about-us .info-section img {
-  width: 150px; /* Smaller image size */
-  height: 150px; /* Make it a perfect circle */
+  width: 150px; 
+  height: 150px; 
   border-radius: 50%;
-  border: 4px solid #F7C31C; /* Yellow border */
+  border: 4px solid #F7C31C;
 }
 
-/* Right and left image sections */
+
 .about-us .right-img {
   flex-direction: row;
 }
