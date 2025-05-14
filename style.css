@@ -196,3 +196,99 @@ footer {
   color: #F7C31C;
   font-size: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+/* Make nav wrap on small screens */
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+}
+
+/* Responsive hero */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .hero {
+    height: 60vh;
+    align-items: center;
+  }
+}
+
+/* Stack info sections on smaller screens */
+@media (max-width: 768px) {
+  .info-section {
+    flex-direction: column !important;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .info-section img {
+    width: 90%;
+  }
+
+  .info-section .text {
+    font-size: 14px;
+  }
+}
+
+/* Responsive carousel */
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  padding-bottom: 10px;
+}
+
+.carousel-item {
+  flex: 0 0 80%;
+  scroll-snap-align: start;
+}
+
+@media (min-width: 768px) {
+  .carousel-item {
+    flex: 0 0 300px;
+  }
+}
+
+.carousel-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive footer */
+@media (max-width: 768px) {
+  footer {
+    font-size: 14px;
+    padding: 15px;
+  }
+}
