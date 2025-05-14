@@ -96,7 +96,7 @@ body {
 .info-section img {
   width: 45%;
   border-radius: 10px;
-  border: #F7C31C solid 8px;
+  /* border: #F7C31C solid 8px; */
 }
 
 .info-section .text {
@@ -196,6 +196,81 @@ footer {
   color: #F7C31C;
   font-size: 30px;
 }
+
+
+
+
+
+
+/* Title section adjustments */
+.about-us .title h1 {
+  margin-bottom: 0; /* Remove bottom margin */
+}
+
+/* Image styling */
+.about-us .profile-img {
+  width: 150px; /* Adjust the size to make images smaller */
+  height: 150px; /* Keep height and width the same to maintain a circular shape */
+  border-radius: 50%; /* Make the images round */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border: 4px solid #F7C31C; /* Yellow border around the images */
+}
+
+/* Info section layout */
+.about-us .info-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Text and image positioning */
+.about-us .info-section .text {
+  flex: 1;
+  color: white;
+}
+
+.about-us .info-section h2 {
+  color: #F7C31C;
+  font-size: 30px;
+}
+
+.about-us .info-section img {
+  width: 150px; /* Smaller image size */
+  height: 150px; /* Make it a perfect circle */
+  border-radius: 50%;
+  border: 4px solid #F7C31C; /* Yellow border */
+}
+
+/* Right and left image sections */
+.about-us .right-img {
+  flex-direction: row;
+}
+
+.about-us .left-img {
+  flex-direction: row-reverse;
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 768px) {
+  .about-us .info-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about-us .info-section img {
+    width: 120px; /* Make images smaller on mobile */
+    height: 120px;
+  }
+
+  .about-us .info-section .text {
+    font-size: 14px;
+  }
+}
+
+
+
+
 
 
 
